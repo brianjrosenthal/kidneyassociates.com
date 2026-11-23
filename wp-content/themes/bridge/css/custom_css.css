@@ -1,0 +1,21 @@
+
+
+.backboxes {    
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.position_center.title .title_subtitle_holder {
+margin-top: 30px;
+}
+
+header.sticky .header_bottom {
+    border-bottom: 3px solid black;
+}
+
+header:not(.sticky):not(.scrolled) .header_bottom, header.fixed_top_header .bottom_header {
+    border-bottom: 3px solid rgba(0,0,0,1);
+}
+
+.header_top p {
+font-size: 13px !important;
+}
